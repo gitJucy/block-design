@@ -1,0 +1,105 @@
+html,
+body,
+.body-wrapper{
+  min-height:100vh;
+  min-width:100%;
+  margin:0px;
+  color: rgb(230,230,230);
+  font-family: 'permanent marker',cursive;
+
+}
+.content-wrapper{
+  height:100vh;
+  min-width:100%;
+  margin:0px;
+  position:relative;
+  z-index: 2;
+
+}
+.body-wrapper{
+  border:solid 1px green;
+  z-index: -1;
+}
+.title-box{
+  position: relative;
+  font-size: 12em;
+  padding:1.5em 0;
+}
+.title-box h1{
+  position:absolute;
+  margin-top:50%;
+}
+div>h2{
+  font-size: 6em;
+  padding:1em;
+  text-align:  center;
+}
+.row1,
+.row2,
+.row3{
+height:33.3vh;
+margin:0px;
+}
+
+/*sets the height of the actual div within the container*/
+.container .row div{
+  height:100%;
+}
+
+/*row 1 style*/
+.c1{
+  background:linear-gradient(to left,rgba(68, 64, 84, 1 ), rgba(190, 187, 187, 1));
+}
+.c2{
+  background-color: rgba(68, 64, 84, 1);
+
+  }
+.c3{
+  background-color: rgba(250, 201, 184, 1);
+
+}
+.c4{
+  background-color: rgba(222, 148, 128, 1);
+
+}
+/*row 2 style*/
+.d1{
+  background-color: rgba(250, 201, 184, 1);
+}
+.d2{
+  background-color:rgba(222, 148, 128, 1)
+  }
+.d3{
+  background-color: rgba(190, 187, 187, 1);
+}
+.d4{
+  background-color:  rgba(39, 40, 58, 1);
+}
+/*row 3 style*/
+.e1{
+  background-color: rgba(68, 64, 84, 1);
+}
+.e2{
+  background-color:rgba(39, 40, 58, 1);
+  }
+.e3{
+  background-color: rgba(250, 201, 184, 1);
+}
+.e4{
+  background-color:rgba(222, 148, 128, 1);
+}
+
+
+
+
+
+
+
+
+
+/*COLOR PALETTE
+gray    rgba(190, 187, 187, 1);
+purple taupe     rgba(68, 64, 84, 1);
+gunmetal    rgba(39, 40, 58, 1);
+apricot    rgba(250, 201, 184, 1);
+salmon     rgba(222, 148, 128, 1);*/
